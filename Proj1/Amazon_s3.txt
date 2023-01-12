@@ -1,0 +1,11 @@
+Amazon simple storage service (s3)
+- it is object storage
+- organized by buckets 
+
+We have three types of storage class here:
+- s3 standard
+- s3 standard infreqent access
+- amazon glacier
+
+
+with IAM we can control who can access the data
