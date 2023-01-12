@@ -1,0 +1,31 @@
+
+
+There are three steps
+- adding the collaborator
+- securing the master branch
+   - no one will able to push a commit in master branch, code should only add through pull request after code review  by collaborators
+- adding the Pull request rules
+
+
+
+## Adding the collaborator
+
+In git hub create a repository
+Go to settings -> Access -> Collaborator -> invite user 
+user will get the notification to accept the request. after that he will be able to use the repo for cloning and pushing. 
+
+
+## Securing the master branch
+
+Settings -> branches -> Branch Protection rules - > Require a pull request before merging
+
+
+## adding the pull request rules 
+ -set the minimum number of reviews required in the same setting above
+ 
+ 
+ 
+ 
+ So the flow will be ..
+ 
+ user will create a new branch -> push the code in his branch -> create a pull request -> get the required reviews approvals -> merge the code in master branch -> delete the old branch 
