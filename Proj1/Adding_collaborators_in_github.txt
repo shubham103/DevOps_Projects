@@ -28,4 +28,16 @@ Settings -> branches -> Branch Protection rules - > Require a pull request befor
  
  So the flow will be ..
  
- user will create a new branch -> push the code in his branch -> create a pull request -> get the required reviews approvals -> merge the code in master branch -> delete the old branch 
+user will create a new branch -> push the code in his branch -> create a pull request -> get the required reviews approvals -> merge the code in master branch -> delete the old branch 
+
+
+
+using git tags we can maintain the versions of our software, like Major release and Minor release
+
+
+
+
+
+
+
+
