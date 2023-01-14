@@ -1,0 +1,22 @@
+Github
+ - we will create a repository
+ - add Contributors
+ - secure the main branch, so that no one can push directly to main branch
+
+AWS ec2
+ - creat a security group
+ - start a ec2 instance, open the required ports
+ - install jenkins
+
+Jenkins
+- install aws plugin and setup the cloud configuration to be able to launch a ec2 instance as node
+- install s3 publisher plugin and add the s3 profile
+- create a pipeline with below stages
+   - clone the github repository
+   - test the go program
+   - build the binaries
+   - upload in  aws s3
+   - Send mail to developers about build status (fail or pass)
+
+AWS S3
+ - creata a new bucket
