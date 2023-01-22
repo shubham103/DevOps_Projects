@@ -40,7 +40,7 @@ Runner   <=> sh() or bat()
 </pre>
 
 ## Github Actions
-![Action_Flow_Diag](img/image.png)
+![Action_Flow_Diag](img/actions_flow.png)
 
 ## Types of Actions
 
