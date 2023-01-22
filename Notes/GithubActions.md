@@ -27,7 +27,7 @@
 
 ## Jenkins Equivalent terms
 
-
+<pre>
 GitAction      Jenkins
 --------    -----------
 Workflow <=> Pipeline
@@ -37,4 +37,4 @@ Step     <=> Steps
 Action   <=> Jenkins/Groovy commands
 Runner   <=> sh() or bat()
 
-
+</pre>
