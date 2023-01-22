@@ -39,8 +39,14 @@ Runner   <=> sh() or bat()
 
 </pre>
 
+## Github Actions
+[Action_Flow_Diag](img/image.png)
+
 ## Types of Actions
 
 1) Docker containe
 2) JavaScript
 3) Composite Actions
+
+
+
