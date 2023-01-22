@@ -5,7 +5,7 @@
     - placed in .github/workflows dir
     - we can have more than one workflows
 
-2) Even 
+2) Event
     - An activity that triggers a workflow.
     - It can be push, merge request... etc
 
@@ -38,3 +38,9 @@ Action   <=> Jenkins/Groovy commands
 Runner   <=> sh() or bat()
 
 </pre>
+
+## Types of Actions
+
+1) Docker containe
+2) JavaScript
+3) Composite Actions
