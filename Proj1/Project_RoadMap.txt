@@ -20,3 +20,15 @@ Jenkins
 
 AWS S3
  - creata a new bucket
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ --------------------------------------------------------------------
+ 
+ - add Data lifecycle in s3 bucket
+    - move 60 days old data in Standard-IA
+    - move 120 days old data in Glacier
