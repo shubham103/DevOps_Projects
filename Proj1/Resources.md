@@ -12,3 +12,6 @@
 Example github workflow action article:
  - https://shipyard.build/blog/your-first-python-github-action/
 
+
+Upload artifact to s3 from github Action
+https://github.com/marketplace/actions/upload-s3
