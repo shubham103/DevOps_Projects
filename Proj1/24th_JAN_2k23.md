@@ -1,7 +1,7 @@
 # Using Github actions
 
 
-![workflow](https://user-images.githubusercontent.com/26185774/214270953-5b2d0cfc-408e-4e4c-8d45-a0cc941e761f.png)
+![new_workflow drawio](https://user-images.githubusercontent.com/26185774/214272440-d7f71e85-83b4-4a0f-b67d-473dcbe7dbd4.png)
 
 
 
