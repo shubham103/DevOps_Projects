@@ -1,9 +1,5 @@
+from pymongo import MongoClient
 from app import app
-from app.models import db
 
-def initialize_database():
-    app.config['MONGODB_SETTINGS'] = {
-        'host': 'mongodb://localhost/todo'
-    }
-    db.init_app(app)
-
+client = MongoClient(app.config['MONGODB_HOST'])
+db = client.todo
