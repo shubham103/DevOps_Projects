@@ -1,0 +1,30 @@
+# ToDo List API
+
+This is a simple ToDo List API built with Flask and MongoDB.
+
+## Setup
+
+1. Clone the repository.
+2. Install the dependencies: `pip install -r requirements.txt`.
+3. Start the application: `python run.py`.
+
+## API Endpoints
+
+- `GET /tasks`: Get all tasks.
+- `POST /tasks`: Create a new task.
+- `GET /tasks/<task_id>`: Get a specific task.
+- `PUT /tasks/<task_id>`: Update a specific task.
+- `DELETE /tasks/<task_id>`: Delete a specific task.
+
+See the `routes.py` file for the complete list of endpoints and their functions.
+
+## Docker
+
+To run the application using Docker:
+
+1. Build the Docker image: `docker build -t todo-api .`
+2. Start the containers: `docker-compose up`
+
+The Flask app will be accessible at http://localhost:5000.
+
+
