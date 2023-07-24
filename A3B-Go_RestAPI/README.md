@@ -13,8 +13,9 @@
 
 - cd ../go-crud-api
 - go get .
-- go mod dowload
+- go mod download
 - sudo -u postgres psql
 - ALTER USER postgres WITH PASSWORD 'test123';
-- sed -i 's/password=.*/password=test123/' db-connection.go
+- \q
+- sed -i 's/password=password/password=test123/' db-connection.go
 - go run .
